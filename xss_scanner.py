@@ -10,8 +10,8 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 def send_telegram_message(message):
-    TELEGRAM_BOT_TOKEN = '7543882357:AAH07v_WNLvxuTTrGFHuoOuMVYtA3iS2AzY'
-    TELEGRAM_CHAT_ID = '1780641008'
+    TELEGRAM_BOT_TOKEN = 'YOUR API TOKEN'
+    TELEGRAM_CHAT_ID = 'YOUR AUTHERIZED CHAT ID'
     try:
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
         params = {
